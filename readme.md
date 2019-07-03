@@ -26,5 +26,11 @@ Check-out his website and youtube channel:
 - 15 Impersonation of a User
 
 ## Comments upon the video.
-I've learnt a lot from the video's and wil most probaly adding a few into my own projects.
-I would like to thank the author/creator.
+I've learnt a lot from the video's and wil most
+
+## Project Setup
+- OS Ubuntu 18.04 LTS
+- Laravel 5.8
+- Php 7.3.6
+- Apache/2.4.29
+- MySql 8.0.16 Community Server for Linux (x86_64)
