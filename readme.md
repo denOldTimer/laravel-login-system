@@ -34,3 +34,6 @@ I've learnt a lot from the video's and wil most
 - Php 7.3.6
 - Apache/2.4.29
 - MySql 8.0.16 Community Server for Linux (x86_64)
+
+## Project Releases
+1.0.0 - Project according to the videos
