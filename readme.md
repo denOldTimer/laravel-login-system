@@ -25,8 +25,17 @@ Check-out his website and youtube channel:
 - 14 Adding a role when registering
 - 15 Impersonation of a User
 
+## Extra 
+- 16 Email Verification  
+[![YouTube Video][youtube-image-2]][youtube-url-2]  
+
+[youtube-url-2]: https://www.youtube.com/watch?v=o_KhH2dZCKQ
+[youtube-image-2]: https://i.ytimg.com/vi/o_KhH2dZCKQ/hqdefault.jpg?sqp=-oaymwEZCPYBEIoBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLAl2IQpnUcasGyP2F9efQyxTF5V8A
+
+
 ## Comments upon the video.
-I've learnt a lot from the video's and wil most
+I've learnt a lot from the video's and wil most  
+
 
 ## Project Setup
 - OS Ubuntu 18.04 LTS

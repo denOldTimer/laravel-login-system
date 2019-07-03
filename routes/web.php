@@ -15,20 +15,20 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Auth::routes();
+Auth::routes(['verify' => true]);
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/home', 'HomeController@index')->name('home')->middleware('verified');
 
 Route::get('/admin', function (){
     return 'you are admin';
-})->middleware(['auth', 'auth.admin']);
+})->middleware(['auth', 'auth.admin', 'verified']);
 
 
 
 Route::namespace('Admin')
 ->prefix('admin')
 ->name('admin.')
-->middleware(['auth', 'auth.admin'])
+->middleware(['auth', 'auth.admin', 'verified'])
 ->group(function(){
     Route::resource('/users', 'UserController', ['except' => ['show', 'create', 'store']]);
     Route::get('/impersonate/user/{id}', 'ImpersonateController@index')->name('impersonate');
